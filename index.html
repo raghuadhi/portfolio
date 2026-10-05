@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Raghu Adhithya B — Database Administrator & Cloud Specialist. SQL Server, AWS, Azure, Performance Tuning, FinOps, and Automation." />
+  <meta name="author" content="Raghu Adhithya B" />
+  <meta property="og:title" content="Raghu Adhithya B — DBA & Cloud Specialist" />
+  <meta property="og:description" content="Portfolio of Raghu Adhithya B, Database Administrator and Cloud Specialist." />
+  <meta property="og:type" content="website" />
+  <title>Raghu Adhithya B — DBA & Cloud Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%97%84%EF%B8%8F</text></svg>" />
+</head>
+<body>
+  <!-- Progress bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">RA<span>.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#experience" class="nav__link">Experience</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#certs" class="nav__link">Certifications</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 7a5 5 0 100 10 5 5 0 000-10zm0-5a1 1 0 011 1v2a1 1 0 11-2 0V3a1 1 0 011-1zm0 16a1 1 0 011 1v2a1 1 0 11-2 0v-2a1 1 0 011-1zM4.22 4.22a1 1 0 011.42 0l1.41 1.42a1 1 0 11-1.41 1.41L4.22 5.64a1 1 0 010-1.42zM17 16.95a1 1 0 011.41 0l1.42 1.41a1 1 0 11-1.42 1.42L17 18.36a1 1 0 010-1.41zM2 12a1 1 0 011-1h2a1 1 0 110 2H3a1 1 0 01-1-1zm16 0a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1zM4.22 19.78a1 1 0 010-1.42L5.64 17a1 1 0 011.41 1.41l-1.41 1.42a1 1 0 01-1.42 0zM17 7.05a1 1 0 010-1.41l1.41-1.42a1 1 0 011.42 1.42L18.41 7.05a1 1 0 01-1.41 0z"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M21.64 13a1 1 0 00-1.05-.14 8 8 0 01-9.45-9.45A1 1 0 0010 2.36 10 10 0 1021.64 14a1 1 0 000-1z"/></svg>
+        </button>
+        <a href="#contact" class="btn btn--sm btn--primary nav__cta">Hire Me</a>
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow reveal">Database Administrator · Cloud Specialist</p>
+          <h1 class="hero__title reveal">Raghu Adhithya&nbsp;B</h1>
+          <p class="hero__subtitle reveal">
+            I keep enterprise databases <strong>fast, available, and reliable</strong> —
+            and I build the cloud automation that keeps them that way.
+          </p>
+          <p class="hero__tags reveal">
+            <span>AWS &amp; Azure</span><span>SQL Server</span><span>Performance Tuning</span>
+            <span>Incident Management</span><span>FinOps</span><span>Automation</span>
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#projects" class="btn btn--primary">View My Work</a>
+            <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+          </div>
+          <div class="hero__meta reveal">
+            <a href="mailto:raghuadhithya23@gmail.com" class="hero__meta-item">
+              <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5z"/></svg>
+              raghuadhithya23@gmail.com
+            </a>
+            <a href="tel:+919443861389" class="hero__meta-item">
+              <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M6.6 10.8a15.5 15.5 0 006.6 6.6l2.2-2.2a1 1 0 011-.24 11 11 0 003.5.56 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11 11 0 00.56 3.5 1 1 0 01-.25 1z"/></svg>
+              +91 94438 61389
+            </a>
+            <span class="hero__meta-item">
+              <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z"/></svg>
+              Virudhunagar, Tamil Nadu
+            </span>
+          </div>
+        </div>
+        <div class="hero__card reveal">
+          <div class="code-card">
+            <div class="code-card__bar">
+              <span></span><span></span><span></span>
+              <em>status.sql</em>
+            </div>
+            <pre class="code-card__body"><code><span class="c-kw">SELECT</span> name, state_desc, recovery_model
+<span class="c-kw">FROM</span> sys.databases
+<span class="c-kw">WHERE</span> state_desc = <span class="c-str">'ONLINE'</span>;
+
+<span class="c-cmt">-- Result</span>
+<span class="c-ok">✔ uptime</span>        99.98%
+<span class="c-ok">✔ backups</span>       verified
+<span class="c-ok">✔ SLA</span>           within target
+<span class="c-ok">✔ cloud cost</span>    optimized</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__kicker">01 — About</span>
+          <h2 class="section__title">Professional Summary</h2>
+        </div>
+        <div class="about">
+          <div class="about__text reveal">
+            <p>
+              Results-driven Database Administrator with hands-on experience managing
+              <strong>SQL Server databases in production environments</strong>, specializing in
+              performance tuning, backup &amp; recovery, incident management, and proactive monitoring.
+            </p>
+            <p>
+              Experienced in <strong>L2 support</strong> — alert troubleshooting, root cause analysis,
+              SLA adherence, and coordination with cross-functional teams and vendors.
+            </p>
+            <p>
+              Skilled across <strong>SQL Server administration, AWS &amp; Azure, Python automation,
+              .NET API development, ERPNext/Frappe customization, and FinOps optimization</strong>,
+              with a strong focus on high availability, reliability, and performance of enterprise systems.
+            </p>
+          </div>
+          <div class="about__stats">
+            <div class="stat reveal">
+              <span class="stat__num" data-count="99.98" data-suffix="%">0</span>
+              <span class="stat__label">Database Uptime Focus</span>
+            </div>
+            <div class="stat reveal">
+              <span class="stat__num" data-count="6" data-suffix="+">0</span>
+              <span class="stat__label">Delivered Projects</span>
+            </div>
+            <div class="stat reveal">
+              <span class="stat__num" data-count="3" data-suffix="">0</span>
+              <span class="stat__label">Industry Certifications</span>
+            </div>
+            <div class="stat reveal">
+              <span class="stat__num" data-count="2" data-suffix="">0</span>
+              <span class="stat__label">Cloud Platforms Mastered</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section section--alt" id="experience">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__kicker">02 — Experience</span>
+          <h2 class="section__title">Where I've Worked</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline__item reveal">
+            <div class="timeline__dot"></div>
+            <div class="timeline__card">
+              <div class="timeline__top">
+                <h3>Cloud Engineer / SQL Server Database Administrator</h3>
+                <span class="timeline__date">Apr 2024 – Present</span>
+              </div>
+              <p class="timeline__company">Codincity Digital Technologies · Coimbatore</p>
+              <p class="timeline__role-group">Core DBA Responsibilities</p>
+              <ul>
+                <li>Manage production SQL Server databases: backup &amp; recovery strategies, DBCC checks, maintenance activities, and SQL Agent Job monitoring.</li>
+                <li>Performance tuning via execution plans, index optimization, query analysis, and resolving blocking/deadlock scenarios.</li>
+                <li>Incident management &amp; alert troubleshooting (backup failures, job failures, blocking sessions, connectivity) using LogicMonitor, Redgate SQL Monitor, ScienceLogic, and ServiceNow.</li>
+                <li>Root Cause Analysis (RCA) with timely resolution within defined SLAs.</li>
+                <li>Server patching, maintenance windows, and HA/DR monitoring &amp; failover validation.</li>
+                <li>Collaborate with internal teams and external vendors (TAC) on complex production issues.</li>
+              </ul>
+              <p class="timeline__role-group">Cloud &amp; Development Responsibilities</p>
+              <ul>
+                <li>Designed and deployed cloud infrastructure on AWS and Azure (VMs, Storage, IAM, Networking).</li>
+                <li>Built backend APIs in .NET and automation tools in Python (Flask).</li>
+                <li>Customized ERPNext with the Frappe Framework — modules for employee management, reporting hierarchy, project allocation, customer management, and IT asset tracking, plus custom DocTypes, reports, and automated email notifications.</li>
+                <li>Implemented FinOps practices to monitor and optimize cloud costs.</li>
+                <li>Built Power BI dashboards for operational and cloud-cost analysis.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__kicker">03 — Skills</span>
+          <h2 class="section__title">Technical Toolkit</h2>
+        </div>
+        <div class="skills">
+          <div class="skill-card reveal">
+            <div class="skill-card__icon">🗄️</div>
+            <h3>Databases</h3>
+            <div class="chips">
+              <span>SQL Server</span><span>Performance Tuning</span><span>Backup &amp; Recovery</span>
+              <span>HA/DR</span><span>Patching</span><span>PostgreSQL</span><span>MongoDB</span><span>MariaDB</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card__icon">💻</div>
+            <h3>Programming &amp; Scripting</h3>
+            <div class="chips">
+              <span>Python (Flask)</span><span>.NET</span><span>JavaScript</span><span>T-SQL</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card__icon">⚙️</div>
+            <h3>ERP Development</h3>
+            <div class="chips">
+              <span>ERPNext</span><span>Frappe Framework</span><span>DocType Development</span>
+              <span>Client Scripts</span><span>Server Scripts</span><span>Python Automation</span><span>Email Automation</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card__icon">☁️</div>
+            <h3>Cloud Platforms</h3>
+            <div class="chips">
+              <span>AWS EC2</span><span>S3</span><span>IAM</span><span>VPC</span><span>CloudWatch</span><span>Boto3</span>
+              <span>Azure VMs</span><span>Storage Accounts</span><span>Azure Monitor</span><span>Azure SDK</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card__icon">📡</div>
+            <h3>Monitoring &amp; DevOps</h3>
+            <div class="chips">
+              <span>LogicMonitor</span><span>Redgate SQL Monitor</span><span>ScienceLogic</span><span>Azure Monitor</span>
+              <span>ServiceNow</span><span>Azure DevOps</span><span>Git</span><span>Terraform</span><span>Docker</span>
+            </div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-card__icon">📊</div>
+            <h3>Reporting &amp; Platforms</h3>
+            <div class="chips">
+              <span>Power BI</span><span>FinOps</span><span>Windows Server</span><span>Linux</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__kicker">04 — Projects</span>
+          <h2 class="section__title">Selected Project Experience</h2>
+        </div>
+        <div class="projects">
+          <article class="project reveal">
+            <div class="project__tag">Database Administration</div>
+            <h3>GDT – ESP – Database Administration</h3>
+            <p>Managed SQL Server production databases: backup &amp; recovery, performance tuning, security, maintenance, incident management, SLA adherence, server patching, version upgrades, and HA/DR operations.</p>
+            <div class="project__stack"><span>SQL Server</span><span>HA/DR</span><span>SLA</span></div>
+          </article>
+          <article class="project reveal">
+            <div class="project__tag">Cloud Governance</div>
+            <h3>Matilda Cloud – Multi-Cloud Policy Automation</h3>
+            <p>Implemented governance and security policies across AWS and Azure environments to improve cloud compliance and operational consistency.</p>
+            <div class="project__stack"><span>AWS</span><span>Azure</span><span>Governance</span></div>
+          </article>
+          <article class="project reveal">
+            <div class="project__tag">ERP / Automation</div>
+            <h3>Internal Enterprise Management System – ERPNext</h3>
+            <p>Customized ERPNext with the Frappe Framework to build modules for employee management, reporting hierarchy, project allocation, customer management, and IT asset tracking — with custom DocTypes, reports, Python automation, and email notifications.</p>
+            <div class="project__stack"><span>ERPNext</span><span>Frappe</span><span>Python</span><span>JavaScript</span></div>
+          </article>
+          <article class="project reveal">
+            <div class="project__tag">Analytics / FinOps</div>
+            <h3>Cloud Cost Analytics – Power BI</h3>
+            <p>Developed Power BI dashboards to monitor cloud cost KPIs, resource utilization, and FinOps metrics for data-driven cost optimization.</p>
+            <div class="project__stack"><span>Power BI</span><span>FinOps</span></div>
+          </article>
+          <article class="project reveal">
+            <div class="project__tag">Automation / Monitoring</div>
+            <h3>Health Check Automation – Assurant</h3>
+            <p>Automated AWS and Azure cloud health monitoring using Python, AWS Boto3, and Azure SDK to collect infrastructure metrics and operational insights.</p>
+            <div class="project__stack"><span>Python</span><span>Boto3</span><span>Azure SDK</span></div>
+          </article>
+          <article class="project reveal">
+            <div class="project__tag">API / Database Ops</div>
+            <h3>GDT – CEC – API Development &amp; Database Operations</h3>
+            <p>Developed backend APIs using .NET and optimized SQL Server and MongoDB operations for improved application performance.</p>
+            <div class="project__stack"><span>.NET</span><span>SQL Server</span><span>MongoDB</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications + Education -->
+    <section class="section" id="certs">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__kicker">05 — Credentials</span>
+          <h2 class="section__title">Certifications &amp; Education</h2>
+        </div>
+        <div class="creds">
+          <div class="creds__col reveal">
+            <h3 class="creds__heading">Certifications</h3>
+            <ul class="cert-list">
+              <li>
+                <span class="cert-list__icon">🏅</span>
+                <div>
+                  <strong>Microsoft Certified: Azure Database Administrator Associate</strong>
+                  <span>Microsoft</span>
+                </div>
+              </li>
+              <li>
+                <span class="cert-list__icon">💰</span>
+                <div>
+                  <strong>FinOps Certified Practitioner</strong>
+                  <span>FinOps Foundation</span>
+                </div>
+              </li>
+              <li>
+                <span class="cert-list__icon">🧱</span>
+                <div>
+                  <strong>Databricks Certified: Data Engineer Associate</strong>
+                  <span>Databricks</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="creds__col reveal">
+            <h3 class="creds__heading">Education</h3>
+            <div class="edu-card">
+              <h4>Bachelor of Engineering — Computer Science &amp; Engineering</h4>
+              <p class="edu-card__school">Mepco Schlenk Engineering College, Sivakasi</p>
+              <div class="edu-card__meta">
+                <span>Graduated 2024</span>
+                <span>CGPA 8.05</span>
+              </div>
+            </div>
+            <h3 class="creds__heading" style="margin-top:2rem">Soft Skills</h3>
+            <div class="chips">
+              <span>Analytical Thinking</span><span>Problem Solving</span><span>Communication</span>
+              <span>Collaboration</span><span>Ownership</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__kicker">06 — Contact</span>
+          <h2 class="section__title">Let's Work Together</h2>
+        </div>
+        <div class="contact">
+          <p class="contact__lead reveal">
+            Open to opportunities in Database Administration, Cloud Engineering, and FinOps.
+            Reach out and let's talk.
+          </p>
+          <div class="contact__grid">
+            <a href="mailto:raghuadhithya23@gmail.com" class="contact__card reveal">
+              <span class="contact__icon">✉️</span>
+              <strong>Email</strong>
+              <span>raghuadhithya23@gmail.com</span>
+            </a>
+            <a href="tel:+919443861389" class="contact__card reveal">
+              <span class="contact__icon">📞</span>
+              <strong>Phone</strong>
+              <span>+91 94438 61389</span>
+            </a>
+            <div class="contact__card reveal">
+              <span class="contact__icon">📍</span>
+              <strong>Location</strong>
+              <span>Virudhunagar, Tamil Nadu</span>
+            </div>
+            <div class="contact__card reveal">
+              <span class="contact__icon">🗣️</span>
+              <strong>Languages</strong>
+              <span>English, Tamil</span>
+            </div>
+          </div>
+          <div class="contact__cta reveal">
+            <a href="mailto:raghuadhithya23@gmail.com?subject=Opportunity%20for%20Raghu%20Adhithya%20B" class="btn btn--primary btn--lg">Email Me Directly</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Raghu Adhithya B · Database Administrator &amp; Cloud Specialist</p>
+      <a href="#home" class="footer__top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
